@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>MSM RMC</title>
+    <meta name="description" content="Quality ready mix concrete with reliable delivery and trusted service.">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link class="fav" rel="icon" href="/images/favicon.ico">
+</head>
+
+<body>
+
+    <!-- ✅ LOADER -->
+    <div id="loader"></div>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container nav-div">
+
+            <a class="navbar-brand brand-logo" href="#">
+                <img src="images/small.png" alt="MSM RMC Logo">
+                <div class="brand-text">
+                    <span class="brand-main">MSM RMC</span>
+                    <span class="brand-sub">Ready-Mix Concrete</span>
+                </div>
+            </a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+
+                <a id="call" href="tel:+919603870372" class="btn btn-call">
+                    <i class="fas fa-phone me-1"></i> +91 99999 99999
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+
+    <section id="hero" class="hero d-flex align-items-center" style="background:
+        linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
+        url('images/wmremove-transformed.png') center/cover no-repeat;">
+
+        <div class="container text-white" data-aos="fade-up">
+            <h1>Superior Quality<br>Ready-Mix Concrete</h1>
+            <p>Reliable. Durable. Delivered On Time.</p>
+
+            <button class="btn btn-yellow me-3" data-bs-toggle="modal" data-bs-target="#quoteModal">
+                Get a Quote
+            </button>
+
+            <a href="#services" class="btn btn-dark-outline">Know More</a>
+        </div>
+    </section>
+
+    <section class="feature-bar text-white text-center">
+        <div class="container icons-div">
+            <div class="row">
+                <div class="col-6 col-md-3" data-aos="fade-up">
+                    <i class="fas fa-cogs"></i>
+                    <h5>High Strength Mixes</h5>
+                </div>
+                <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-truck"></i>
+                    <h5>On-Site Delivery</h5>
+                </div>
+                <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-hard-hat"></i>
+                    <h5>Experienced Team</h5>
+                </div>
+                <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-industry"></i>
+                    <h5>Quality bricks</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- </section> -->
+
+    <!-- ABOUT SECTION -->
+
+    <section id="about" class="about-section py-5">
+        <div class="container about">
+            <div class="row align-items-center">
+
+                <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
+                    <div class="about-img">
+                        <img src="images/chatgptblack.png" alt="Ready Mix Concrete Plant">
+                    </div>
+                </div>
+
+                <div class="col-md-6" data-aos="fade-left">
+                    <h2 class="mb-3">About Our Company</h2>
+
+                    <p>
+                        We are a trusted Ready Mix Concrete (RMC) supplier delivering
+                        high-quality concrete solutions for residential, commercial,
+                        and infrastructure projects.
+                    </p>
+
+                    <p>
+                        With modern batching plants, experienced engineers, and
+                        strict quality control, we ensure durable and reliable
+                        concrete for every construction need.
+                    </p>
+
+                    <p>
+                        Our commitment to on-time delivery and customer satisfaction
+                        has made us a preferred partner for builders and contractors.
+                    </p>
+
+                    <div class="about-highlights mt-4">
+                        <i class="fas fa-check-circle"></i> 15+ Years Experience<br>
+                        <i class="fas fa-check-circle"></i> Modern Batching Plant<br>
+                        <i class="fas fa-check-circle"></i> Quality Tested Materials<br>
+                        <i class="fas fa-check-circle"></i> On-Time Delivery Guarantee
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+
+    <section id="services" class="services py-5">
+        <div class="container text-center">
+
+            <h2 class="mb-5">Our Services</h2>
+
+            <div class="service-slider-wrapper">
+
+                <button class="slider-btn left" onclick="moveSlide(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div class="service-slider" id="serviceSlider">
+
+                    <div class="service-item">
+                        <div class="service-card yellow">
+                            <img src="images/Highgradeconcrete.jpeg">
+                            <h4>High grade Concrete</h4>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-card dark">
+                            <img src="images/slabconcrete.jpg">
+                            <h4>Slab concrete</h4>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-card yellow">
+                            <img src="images/color-concrete.png">
+                            <h4>Color concrete</h4>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-card dark">
+                            <img src="images/Bagconcrete.webp">
+                            <h4>Bag concrete</h4>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-card yellow">
+                            <img src="images/stamp-concrete.jpeg">
+                            <h4>Stamp concrete</h4>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-card dark">
+                            <img src="images/light-weight-concrete.webp">
+                            <h4>Light weight concrete</h4>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-card yellow">
+                            <img src="images/ssc-concrete.jpg">
+                            <h4>SSC concrete</h4>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-card dark">
+                            <img src="images/ggbs-concrete.png">
+                            <h4>GGBS concrete</h4>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-card yellow">
+                            <img src="images/SDC-concrete.jpg">
+                            <h4>SDC concrete</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="slider-btn right" onclick="moveSlide(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+            </div>
+
+            <div id="sliderDots" class="slider-dots mt-4"></div>
+
+        </div>
+    </section>
+
+    <!-- CLIENT LOGO SLIDER -->
+
+    <section id="projects" class="clients-section">
+        <div class="container text-center">
+
+            <h2 class="section-title mb-4">Trusted By</h2>
+
+            <div class="logo-slider">
+
+                <button class="slider-btn left" onclick="moveSlides(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div class="logo-wrapper">
+                    <div class="logo-track" id="logoTrack">
+
+                        <div class="logo-item">
+                            <img src="images/Google-Ai-Gemini.png">
+                        </div>
+
+                        <div class="logo-item">
+                            <img src="images/Google-Alphago.png">
+                        </div>
+
+                        <div class="logo-item">
+                            <img src="images/Google-Checks.png">
+                        </div>
+
+                        <div class="logo-item">
+                            <img src="images/Google-DoubleClick.png">
+                        </div>
+
+                        <div class="logo-item">
+                            <img src="images/Google-Kubernetes-Engine-(GKE).png">
+                        </div>
+
+                        <div class="logo-item">
+                            <img src="images/Google-Search-Console.png">
+                        </div>
+
+                        <div class="logo-item">
+                            <img src="images/Google-Sites-New.png">
+                        </div>
+
+                        <div class="logo-item">
+                            <img src="images/Google-Talk-Old.png">
+                        </div>
+
+                        <div class="logo-item">
+                            <img src="images/Podcastech-Google.png">
+                        </div>
+
+                    </div>
+                </div>
+
+                <button class="slider-btn right" onclick="moveSlides(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+            </div>
+
+            <div id="sliderDotss" class="slider-dotss mt-3"></div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-md-5 mb-4">
+                    <h2>Contact Us</h2>
+                    <p class="contact-sub">
+                        Need ready mix concrete? Send us your requirement and we’ll respond quickly.
+                    </p>
+
+                    <div class="contact-info">
+
+                        <p>
+                            <i class="fas fa-phone"></i>
+                            <a class="location" href="tel:+919999999999">+91 99999 99999</a>
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope"></i>
+                            <a class="location" href="mailto:info@rmcconcrete.com">info@rmcconcrete.com</a>
+                        </p>
+                        <p>
+                            <i class="fas fa-location-dot"></i>
+                            <a class="location" href="https://share.google/0H4FJJrzyUXuzdHbk" target="_blank">
+                                Hyderabad, India (View On Map)
+                            </a>
+                        </p>
+
+                    </div>
+
+                    <!-- ⭐ SOCIAL MEDIA -->
+                    <div class="contact-social mt-4">
+
+                        <span>Connect With Us</span>
+
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/YourPage" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/YourPage" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://twitter.com/YourCompany" target="_blank">
+                                <i class="fab fa-x-twitter"></i>
+                            </a>
+                            <a href="https://wa.me/919999999999" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- FORM -->
+                <div class="col-md-7">
+
+                    <form id="contactForm" action="/send-enquiry" method="POST">
+
+                        <div class="form-group">
+                            <input type="text" name="name" required min="3" maxlength="30">
+                            <label>Your Name</label>
+                            <small class="error-msg"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" name="phone" required pattern="[0-9]{10}" maxlength="10">
+                            <label>Phone Number</label>
+                            <small class="error-msg"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" name="email" required maxlength="100">
+                            <label>Email Address</label>
+                            <small class="error-msg"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" name="address" required maxlength="150">
+                            <label>Project Location</label>
+                            <small class="error-msg"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea name="message" rows="4" maxlength="500" required></textarea>
+                            <label>Your Requirement</label>
+                            <small class="error-msg"></small>
+                        </div>
+
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-div">
+
+                <!-- Company Info -->
+                <div class="col-md-4 mb-4">
+                    <h4 class="footer-logo">MSM RMC</h4>
+                    <p>
+                        Delivering high-quality ready mix concrete with reliability,
+                        strength, and on-time service for every project.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-2 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="col-md-3 mb-4">
+                    <h5>Our Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="#services">High grade concrete</a></li>
+                        <li><a href="#services">Slab concrete</a></li>
+                        <li><a href="#services">Color concrete</a></li>
+                        <li><a href="#services">Bag concrete</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-md-3 mb-4 footer-contact-info">
+                    <h5>Contact</h5>
+
+                    <p>
+                        <i class="fas fa-phone"></i>
+                        <a class="footer-location" href="tel:+919999999999">+91 99999 99999</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope"></i>
+                        <a class="footer-location" href="mailto:info@rmcconcrete.com">info@rmcconcrete.com</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-location-dot"></i>
+                        <a class="footer-location" href="https://share.google/0H4FJJrzyUXuzdHbk" target="_blank">
+                            Hyderabad, India (View On Map)
+                        </a>
+                    </p>
+
+                    <!-- Social Icons -->
+                    <div class="social-icons mt-3">
+
+                        <a href="https://www.facebook.com/YourPageName" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/YourPageName" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/YourCompany" target="_blank">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://wa.me/919999999999" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="footer-bottom text-center">
+                <p>
+                    © 2026 MSM RMC. All Rights Reserved |
+                    <a href="privacy.html">Privacy Policy</a> |
+                    <a href="disclaimer.html">Disclaimer</a> |
+                    <a href="#">www.msmrmcconcrete.com</a>
+                </p>
+            </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+
+    <!-- QUOTE MODAL -->
+    <div class="modal fade" id="quoteModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+
+                <!-- header -->
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold">Get a Quote</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- body -->
+                <div class="modal-body p-4">
+
+                    <!-- SAME CONTACT FORM -->
+                    <form id="quoteForm" action="/send-enquiry" method="POST">
+
+                        <div class="form-group">
+                            <input type="text" name="name" required min="3" maxlength="30">
+                            <label>Your Name</label>
+                            <small class="error-msg"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" name="phone" required pattern="[0-9]{10}" maxlength="10">
+                            <label>Phone Number</label>
+                            <small class="error-msg"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" name="email" required maxlength="100">
+                            <label>Email Address</label>
+                            <small class="error-msg"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" name="address" required maxlength="150">
+                            <label>Project Location</label>
+                            <small class="error-msg"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea name="message" rows="4" maxlength="500" required></textarea>
+                            <label>Your Requirement</label>
+                            <small class="error-msg"></small>
+                        </div>
+
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

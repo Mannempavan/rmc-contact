@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* HERO */
+
+.legal-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url('https://images.unsplash.com/photo-1503387762-592deb58ef4e');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px 110px;
+    color: #fff;
+}
+
+.legal-hero h1 {
+    font-size: 42px;
+    margin-bottom: 12px;
+    color: #FFD700;
+    letter-spacing: 1px;
+}
+
+.legal-hero p {
+    font-size: 18px;
+    color: #ddd;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* CONTENT BOX */
+
+.legal-container {
+    max-width: 920px;
+    margin: -60px auto 60px;
+    background: #fff;
+    padding: 45px;
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+    animation: fadeIn 0.6s ease;
+}
+
+.legal-container h2 {
+    color: #222;
+    margin-top: 30px;
+    border-left: 4px solid #FFD700;
+    padding-left: 12px;
+    font-size: 22px;
+}
+
+.legal-container p {
+    color: #555;
+    margin-top: 8px;
+}
+
+.legal-container ul {
+    padding-left: 22px;
+}
+
+.legal-container li {
+    margin-bottom: 8px;
+}
+
+/* FLOAT BUTTON */
+
+.back-home-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: linear-gradient(45deg, #FFD700, #FFC300);
+    color: #000;
+    padding: 14px 22px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 999;
+}
+
+.back-home-btn:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* ANIMATION */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* TABLETS */
+
+@media (max-width: 992px) {
+    .legal-container {
+        margin: -50px 20px 40px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .legal-hero {
+        padding: 70px 15px 80px;
+    }
+
+    .legal-hero h1 {
+        font-size: 30px;
+    }
+
+    .legal-hero p {
+        font-size: 16px;
+    }
+
+    .legal-container {
+        padding: 28px 22px;
+        margin: -30px 15px 40px;
+        border-radius: 14px;
+    }
+
+    .legal-container h2 {
+        font-size: 18px;
+    }
+
+    .back-home-btn {
+        bottom: 18px;
+        right: 18px;
+        padding: 11px 16px;
+        font-size: 14px;
+    }
+
+}
+
+/* LARGE SCREENS */
+
+@media (min-width: 1400px) {
+    .legal-container {
+        max-width: 1000px;
+    }
+}
